@@ -36,14 +36,19 @@ row_index += 1
 end
 return result
  
- end
+end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-
-    nds
-    direcor_data =  nds
-    gross = []
-
+  director_data = directors_database 
+  row = 0 
+  movies = directors_database[row][:movies]
+  grosses = []
+  while row < movies.length do 
+    movies[row]
+    row += 1
+    grosses <<  += [movies[row][:worldwide_gross]]
+    p grosses
+  end
 end
