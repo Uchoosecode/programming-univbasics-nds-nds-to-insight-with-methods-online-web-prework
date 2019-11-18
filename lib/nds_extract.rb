@@ -52,6 +52,6 @@ while grand_gross < grosses.length do
 end
 row_index += 1 
 end
-
+return grand_gross
 end
 
