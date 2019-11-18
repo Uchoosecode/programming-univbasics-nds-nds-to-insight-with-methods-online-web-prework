@@ -49,7 +49,7 @@ def gross_for_director(director_data)
 while grand_gross < grosses.length do 
     
    p grand_gross += grosses
-
+end
 row_index += 1 
 end
 
