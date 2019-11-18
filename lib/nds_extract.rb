@@ -48,10 +48,8 @@ def gross_for_director(director_data)
   grand_gross = 0 
 # p grosses
     
-   p grosses
-    
+   p grand_gross += grosses
 
-end
 p grand_gross
 row_index += 1 
 end
