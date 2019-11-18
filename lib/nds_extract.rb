@@ -50,7 +50,7 @@ def gross_for_director(director_data)
     element_index = 0 
   while element_index < grosses.length do
     
-   p grosses.length
+   p grosses
     
     
   
