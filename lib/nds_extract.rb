@@ -50,7 +50,6 @@ def gross_for_director(director_data)
     
    p grand_gross += grosses
 
-p grand_gross
 row_index += 1 
 end
 
