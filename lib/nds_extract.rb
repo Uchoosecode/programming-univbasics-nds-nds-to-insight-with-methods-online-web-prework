@@ -42,24 +42,14 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   row_index = 0 
-  while row_index < director_data[:movies].length do 
-   grosses = director_data[:movies][row_index][:worldwide_gross]
-    
   grand_gross = 0 
-p grosses
-    element_index = 0 
-  while element_index < grosses.length do
-    
-    grand_gross += grosses[element_index]
-    
-    
+  while row_index < director_data[:movies].length do 
+   grand_gross += director_data[:movies][row_index][:worldwide_gross]
   
-  element_index += 1 
-
-end
-p grand_gross
+  p grand_gross  
+ 
 row_index += 1 
 end
-
+return grand_gross
 end
 
